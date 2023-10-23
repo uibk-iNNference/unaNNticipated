@@ -1,0 +1,11 @@
+.git
+experiments/results
+experiments/data/datasets
+setup
+venv
+
+innfrastructure/.pytest_cache
+innfrastructure/build
+innfrastructure/cli.egg-info
+innfrastructure/innfrastructure.egg-info
+innfrastructure/forennsic_cpp.cpython*

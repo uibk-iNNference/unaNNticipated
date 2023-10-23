@@ -1,0 +1,16 @@
+.vscode
+
+**/__pycache__
+.pytest_cache
+.coverage
+coverage_html_report
+testing.yaml
+.nox
+
+# Setuptools
+build
+*.egg-info
+dist
+
+# built libraries (names and results vary with local python version)
+*.so

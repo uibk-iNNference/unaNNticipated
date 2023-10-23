@@ -1,0 +1,7 @@
+# directories
+logs
+__pycache__
+venv*
+Pipfile*
+.vscode
+.idea

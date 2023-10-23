@@ -1,0 +1,17 @@
+version: "3.4"
+
+volumes:
+  repo:
+    external: true
+
+services:
+  setup:
+    image: setup
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ..:/setup
+      - repo:/mnt/repo

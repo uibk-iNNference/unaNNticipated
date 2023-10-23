@@ -1,0 +1,3 @@
+model_dir: "wer das liest ist doof, hihihi"
+gcloud_additional_arguments:
+  service-account: "forennsic@forennsic.iam.gserviceaccount.com"

@@ -1,0 +1,39 @@
+# Planned project organization
+
+- experiments
+  - prepare.py -> prepare global, search and execute all other prepare.py scripts
+  - run.py -> run all run.py scripts in experiments
+  - data
+    - models
+      - cifar10.h5
+      - fmnist.h5
+      - cifar10_pytorch.pth (only really required on remote server)
+    - datasets
+      - cifar10
+        - samples.npy
+        - labels.npy
+      - fmnist
+        - samples.npy
+        - labels.npy
+  - local_testing
+    - cpu prediction script
+    - gpu prediction script
+    - ...
+  - main
+    - run.py -> runs on local laptop, start cloud instances, predict on servers, save results
+    - evaluate.py
+    - results
+      - ...
+      - ...
+  - libraries
+    - prepare.py
+    - run.py
+    - evaluate.py
+    - data
+      - models
+    - results
+      - ...
+      - ...
+  - gpu
+- innfrastructure
+- figures

@@ -1,0 +1,13 @@
+# stuff that's not in iNNfrastructure?
+tensorflow_datasets
+scikit-learn
+fabric
+matplotlib
+tensorboard-plugin-profile
+
+numpy==1.19.5
+seaborn
+invoke
+pandas
+joblib
+more-itertools

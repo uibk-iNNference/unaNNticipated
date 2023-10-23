@@ -1,0 +1,8 @@
+* Inbox
+** TODO Find location of illegal instruction bug in TF 2.4.0
+
+This crashes on the Rechenknecht, but not on the other two machines (which have newer CPUs)
+Therefore, the bug must be caused by some instructions being used that don't exist on Broadwell CPUs, but do later.
+
+This is mentioned here:
+[[https://github.com/tensorflow/tensorflow/issues/45744][Illegal instruction (core dumped) in a CPU with AVX support #45744]]
